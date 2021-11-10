@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="64379948-f59d-4974-9d81-490ed1258bb8" name="acme.local" url="http://acme.local">
+        <fileTransfer rootFolder="/var/www/acme.local" accessType="SFTP" host="acme.local" port="22" sshConfigId="5954cfc6-0b6b-4eed-8627-e07cee9f0fa8" sshConfig="root@acme.local:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
